@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Martel Barkley Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Martel Barkley | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <h1 id="header__logo">Martel Barkley Portfolio</h1>
-            <nav class="header__nav">
-                <ul class="header__nav_list">
-                    <li class="header__nav_listItem"><a href="#">About</a></li>
-                    <li class="header__nav_listItem"><a href="#">Projects</a></li>
-                    <li class="header__nav_listItem"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="profile">
-            <figure>
-                <img src="/assets/mjb.png" alt="martel profile" class="profile__image">
-            </figure>
-            <article class="article__profile">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, qui. Hic, dolores praesentium harum ipsum nemo modi quis cum repellendus quasi amet expedita dolor eaque ipsam itaque fuga enim fugit.</p>
-            </article>
-        </section>
-        <h2 class="projects__title">Projects</h2>
-        <section class="projects">
-            <article class="projects__column">
-                <h3 class="projects__column_title">Project 1</h3>
-                <figure class="projects__column_figure">
-                    <img src="/assets/pet capture.PNG" alt="" class="projects__column_image">
-                </figure>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quis autem aliquid iusto assumenda corporis recusandae libero officiis voluptatum atque illum accusamus exercitationem, aperiam facere inventore tempore consectetur doloremque blanditiis.</p>
-            </article>
-            <article class="projects__column">
-                <h3 class="projects__column_title">Project 1</h3>
-                <figure class="projects__column_figure">
-                    <img src="/assets/pet shelter capture.PNG" alt="" class="projects__column_image">
-                </figure>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quis autem aliquid iusto assumenda corporis recusandae libero officiis voluptatum atque illum accusamus exercitationem, aperiam facere inventore tempore consectetur doloremque blanditiis.</p>
-            </article>
-            <article class="projects__column">
-                <h3 class="projects__column_title">Project 1</h3>
-                <figure class="projects__column_figure">
-                    <img src="/assets/pet amok capture.PNG" alt="" class="projects__column_image">
-                </figure>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quis autem aliquid iusto assumenda corporis recusandae libero officiis voluptatum atque illum accusamus exercitationem, aperiam facere inventore tempore consectetur doloremque blanditiis.</p>
-            </article>
-            <article class="projects__column">
-                <h3 class="projects__column_title">Project 1</h3>
-                <figure class="projects__column_figure">
-                    <img src="/assets/Island Hopping capture.PNG" alt="" class="projects__column_image">
-                </figure>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quis autem aliquid iusto assumenda corporis recusandae libero officiis voluptatum atque illum accusamus exercitationem, aperiam facere inventore tempore consectetur doloremque blanditiis.</p>
-            </article>
-            <article class="projects__column">
-                <h3 class="projects__column_title">Project 1</h3>
-                <figure class="projects__column_figure">
-                    <img src="/assets/mystery educator capture.PNG" alt="" class="projects__column_image">
-                </figure>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quis autem aliquid iusto assumenda corporis recusandae libero officiis voluptatum atque illum accusamus exercitationem, aperiam facere inventore tempore consectetur doloremque blanditiis.</p>
-            </article>
-        </section>
-        <footer class="fotter">
-            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="martelbarkley" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/martelbarkley?trk=profile-badge">Martel Barkley</a></div>
-            <small class="footer__copyright">&copy Martel Barkley Inc</small>
-            <section class="footer__social">
-                <a href="#" class="fa fa-github"></a>
-            </section>
-        </footer>
-    </div>
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <div class="aurora aurora--one" aria-hidden="true"></div>
+  <div class="aurora aurora--two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">MB</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="panel hero">
+      <div class="hero__text">
+        <p class="kicker">Software Engineer</p>
+        <h1>Martel Barkley</h1>
+        <p class="lead">Building modern, scalable digital products with high-impact frontend experiences and robust backend architecture.</p>
+      </div>
+      <figure class="hero__image-wrap">
+        <img src="assets/mjb.png" alt="Portrait of Martel Barkley" class="hero__image">
+      </figure>
+    </section>
+
+    <section id="skills" class="panel">
+      <h2>Tech Skills</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Languages &amp; Frameworks</h3>
+          <p>React, TypeScript, JavaScript, Java, Node.js, Spring Boot, SQL, GraphQL, Supabase (PostgreSQL, Edge Functions)</p>
+        </article>
+        <article class="skill-card">
+          <h3>Tools &amp; Platforms</h3>
+          <p>Apache Kafka, Cassandra, AWS, Splunk, IntelliJ, GitHub, Jira, Selenium, Playwright, Storybook, Requestly</p>
+        </article>
+        <article class="skill-card">
+          <h3>AI Tools</h3>
+          <p>OpenAI API (prompt engineering, structured outputs), AI-powered recommendation systems, LLM integration in production applications, prompt optimization, API-based AI workflows</p>
+        </article>
+        <article class="skill-card">
+          <h3>Practices</h3>
+          <p>Test-Driven Development (TDD), RESTful APIs, Microservices, Event-Driven Architecture, Agile/Scrum, Kanban</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About Me</h2>
+      <p class="about-copy">I'm a full-stack software engineer with experience building reliable, production-grade systems in both enterprise and product-driven environments. Currently, I design and maintain backend services for fraud detection workflows at JPMorgan Chase, where I focus on scalable microservices, real-time event processing, and observability improvements that directly impact system reliability and team efficiency.
+
+My experience spans Java, Spring Boot, Kafka, and AWS on the backend, along with React and TypeScript on the frontend. I enjoy building clean, component-driven interfaces just as much as architecting backend services that are resilient, testable, and performance-conscious. I've implemented centralized logging pipelines, improved incident detection by 40%, and integrated AI-powered features into production applications to create more dynamic user experiences.
+
+Outside of enterprise systems, I build full-stack applications from scratch, including an AI-powered meal planning app that combines inventory tracking, barcode scanning, and LLM-based recommendations. I'm passionate about ownership, thoughtful system design, and creating software that is both technically sound and meaningful to the people who use it.</p>
+      <div class="social-links" aria-label="Social links">
+        <a href="https://www.instagram.com/mbstudios.we/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.linkedin.com/in/martelbarkley" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact Me</h2>
+      <p>Let's build something impactful together.</p>
+      <a class="email-link" href="mailto:mbstudios.web@gmail.com">mbstudios.web@gmail.com</a>
+    </section>
+  </main>
 </body>
 </html>
